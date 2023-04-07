@@ -1,0 +1,14 @@
+.statistic{
+width: 300px;
+background: #f9f9f9;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.statlist{
+    width: 100%;
+    display: flex;
+
+
+}
