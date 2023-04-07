@@ -1,7 +1,8 @@
 .item{
     display: flex;
     flex-direction: column;
-    outline: 1px red solid;
+    align-items: center;
+
 
     width: 20%;
 }

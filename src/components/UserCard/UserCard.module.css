@@ -1,6 +1,9 @@
+
+
 .profile{
     width: 250px;
     box-shadow: 3px 3px 5px 5px rgb(186, 179, 179);
+    margin-bottom: 40px;
 }
 
 .description{
