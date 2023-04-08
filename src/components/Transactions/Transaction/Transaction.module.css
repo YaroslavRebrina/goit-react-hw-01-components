@@ -1,0 +1,19 @@
+table {
+  table-layout: fixed;
+  border-color: red;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: antiquewhite;
+}
+
+tbody tr:nth-child(even) {
+  background-color: azure;
+}
+
+td,
+th {
+  text-align: center;
+
+  border: 1px solid rgb(94, 121, 219);
+}

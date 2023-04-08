@@ -22,7 +22,7 @@ export const App = () => {
       />
       <Staticstic title="DATA" data={data} />
       <FriendList friends={friends} />
-      <TransactionsHistory items={transactions} />
+      <TransactionsHistory transactions={transactions} />
     </div>
   );
 };

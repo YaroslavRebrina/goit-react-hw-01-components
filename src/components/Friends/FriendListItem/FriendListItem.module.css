@@ -18,6 +18,8 @@
   width: 200px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+
   border: 2px black solid;
   box-shadow: 3px 3px 5px 5px rgb(186, 179, 179);
 }
