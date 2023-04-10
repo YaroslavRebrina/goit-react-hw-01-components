@@ -4,7 +4,7 @@ import css from './Statistic.module.css';
 
 export const Staticstic = ({ title, data }) => (
   <section className={css.statistic}>
-    <h2 className={css.title}>{title && title}</h2>
+    {title && <h2 className={css.title}>{title}</h2>}
     <ul className={css.statlist}>
       {data.map(item => {
         return StatisticChip(item);
@@ -14,5 +14,11 @@ export const Staticstic = ({ title, data }) => (
 );
 
 Staticstic.propTypes = {
-  data: PropTypes.arrayOf(PropTypes.object).isRequired,
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
+    })
+  ),
 };

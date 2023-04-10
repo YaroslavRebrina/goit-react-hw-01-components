@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import css from './StatisticChip.module.css';
 import { getColor } from 'utils/randomNumber';
 
@@ -8,9 +7,3 @@ export const StatisticChip = ({ id, label, percentage }) => (
     <span className={css.percentage}>{percentage + '%'}</span>
   </li>
 );
-
-StatisticChip.propTypes = {
-  id: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
-  percentage: PropTypes.number.isRequired,
-};
